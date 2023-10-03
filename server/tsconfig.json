@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2021",
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "types": ["@types/node", "@citizenfx/server"],
+    "lib": ["esnext"],
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["./**/*"]
+}

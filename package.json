@@ -1,0 +1,26 @@
+{
+  "name": "fun-frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@citizenfx/client": "2.0.6736-1",
+    "@citizenfx/server": "2.0.6736-1",
+    "@types/node": "^20.8.2",
+    "esbuild": "^0.19.4",
+    "prisma": "^5.3.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nativewrappers/client": "^1.7.33",
+    "@nativewrappers/fivem-server": "^0.0.20",
+    "@prisma/client": "^5.3.1"
+  }
+}

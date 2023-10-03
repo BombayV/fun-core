@@ -1,0 +1,1 @@
+console.log('hello world, from fun-core/server/index.ts')

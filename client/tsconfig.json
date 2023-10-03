@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "lib": ["es2020"],
+    "types": ["@citizenfx/client", "@types/node"],
+    "moduleResolution": "node",
+    "inlineSourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": false
+  },
+  "exclude": ["node_modules"]
+}
