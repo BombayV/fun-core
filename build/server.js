@@ -1,0 +1,3 @@
+// server/index.ts
+console.log("hello world, from fun-core/server/index.ts");
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiLi4vc2VydmVyL2luZGV4LnRzIl0sCiAgInNvdXJjZXNDb250ZW50IjogWyJcbmNvbnNvbGUubG9nKCdoZWxsbyB3b3JsZCwgZnJvbSBmdW4tY29yZS9zZXJ2ZXIvaW5kZXgudHMnKVxuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUNBLFFBQVEsSUFBSSw0Q0FBNEM7IiwKICAibmFtZXMiOiBbXQp9Cg==

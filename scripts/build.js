@@ -1,11 +1,11 @@
 const { build } = require('esbuild');
-const { filelocPlugin } = require('esbuild-node-externals');
+const { filelocPlugin } = require("esbuild-plugin-fileloc");
 
 build({
   bundle: true,
   sourcemap: "inline",
-  entryPoints: ["./server/server.ts"],
-  outfile: "./dist/server.js",
+  entryPoints: ["./server/index.ts"],
+  outfile: "./build/server.js",
   platform: "node",
   target: "node16",
   plugins: [filelocPlugin()],
@@ -17,8 +17,8 @@ build({
   bundle: true,
   minify: true,
   sourcemap: "inline",
-  outfile: "./dist/client.js",
-  entryPoints: ["./client/client.ts"],
+  outfile: "./build/client.js",
+  entryPoints: ["./client/index.ts"],
   platform: "browser",
 })
 .then(() => console.log("Built client files"))
