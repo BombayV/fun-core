@@ -16,12 +16,11 @@
     "@types/node": "^20.8.2",
     "esbuild": "^0.19.4",
     "esbuild-plugin-fileloc": "^0.0.6",
-    "prisma": "^4.8.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "@nativewrappers/client": "^1.7.33",
     "@nativewrappers/fivem-server": "^0.0.20",
-    "@prisma/client": "^4.8.0"
+    "tslog": "^4.9.2"
   }
 }
